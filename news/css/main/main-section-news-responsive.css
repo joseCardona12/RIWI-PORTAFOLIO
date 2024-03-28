@@ -1,0 +1,47 @@
+@media (max-width:1000px){
+    .main{
+        .main-section-news{
+            .news-article{
+                .article-up{
+                    flex-direction: column;
+                    gap: calc((var(--value20Px) * 2));
+                    .up-left,
+                    .up-right{
+                        width: 100%;
+                    }
+
+                    .up-right{
+                        .right-iframe,
+                        .right-videos{
+
+                            .iframe-content,
+                            .videos-content{
+                                flex-direction: column;
+                                gap: var(--value20Px);
+
+                                .content-iframe,
+                                .content-video{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .article-down{
+                    flex-direction: column;
+                    gap: var(--value20Px);
+                }
+            }
+
+            #robotica,
+            #blockchain,
+            #habilidades-blandas{
+                .up-right,
+                .down-right{
+                    order: 1;
+                }
+            }
+        }
+    }
+}

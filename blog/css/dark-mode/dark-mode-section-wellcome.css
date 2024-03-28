@@ -1,0 +1,28 @@
+.body.dark{
+    .main{
+
+        .main-section-wellcome{
+            .wellcome-article{
+
+                .article-title{
+                    .title{
+                        color: var(--colorFirst);
+    
+                        .title-light{
+                            color: var(--colorSecond);
+                        }
+    
+                    }
+                }
+
+                .article-paragraph .paragraph{
+                    color: var(--colorFirst);
+                }
+
+                
+            }
+            
+            
+        }
+    }
+}

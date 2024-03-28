@@ -1,0 +1,15 @@
+@media (min-width:701px) and (max-width:1000px){
+
+    .main{
+        .main-section-wellcome{
+            .wellcome-article{
+
+                .article-title,
+                .article-paragraph{
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}

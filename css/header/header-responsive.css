@@ -1,0 +1,100 @@
+@media (max-width:700px){
+    .header{
+        position: relative;
+        margin-bottom: 40px;
+
+        .header-nav{
+            position: absolute;
+            top: 20px;
+            left: -300px;
+            width: 300px;
+            height: 50vh;
+            background-color: var(--colorSecond);
+            border-bottom-right-radius: var(--value10Px);
+            border-top-right-radius: var(--value10Px);
+            z-index: 3;
+            transition: left .4s ease;
+
+            .nav-list{
+                margin-top: 0;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                padding-left: 0;
+
+                .list-item{
+                    padding-left: 20px;
+                    transition: background-color .4s ease;
+
+                    .item-link{
+                        color: var(--colorFirst);
+                        
+                    }
+
+                    .item-link.active{
+                        border: 0;
+                        padding: 0;
+                    }
+
+                    .item-link.active:hover{
+                        background-color: transparent;
+                    }
+
+                    .item-link:hover{
+                        border: 0;
+                        color: var(--colorWhite);
+                    }
+                }
+
+                .list-item:hover{
+                    background-color: var(--colorSecondDark);
+                }
+            }
+        }
+        .header-nav.show-nav{
+            left: 0px;
+        }
+
+        
+        .header-hamburger{
+            display: block;
+            cursor: pointer;
+    
+            .hamburger-line{
+                width: 25px;
+                height: 3px;
+                margin-bottom: 5px;
+                background-color: var(--colorSecond);
+                border-radius: var(--value10Px);
+            }
+
+        }
+    }
+
+    .body.dark{
+        .header{
+            .header-nav{
+                background-color: var(--colorFirst);
+                .nav-list .list-item{
+                    .item-link{
+                        color: var(--colorSecond);
+                    }
+                }
+
+                .nav-list .list-item:hover{
+                    .item-link{
+                        color: var(--colorFirst);
+                    }
+                }
+            }
+            .header-hamburger .hamburger-line{
+                background-color: var(--colorFirst);
+            }
+        }
+    }
+    
+}
+
+@media (min-width:601px) and (max-width:900px){
+}
+

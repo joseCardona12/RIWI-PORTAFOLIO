@@ -1,0 +1,7 @@
+.body.dark{
+    background-color: var(--colorSecond);
+
+    .main .main-section-second{
+        background-color: var(--colorSecondDark);
+    }
+}

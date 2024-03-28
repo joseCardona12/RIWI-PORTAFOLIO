@@ -1,0 +1,24 @@
+.body.dark{
+    .main{
+        .section-second{
+            .second-article{
+                .article-title,
+                .article-paragraph{
+                    background-color:var(--colorSecondDark);
+
+                    .head-title,
+                    .left-paragraph,
+                    .right-title,
+                    .right-paragraph,
+                    .list-item{
+                        color: var(--colorFirst);
+                    }
+
+                    hr{
+                        border: 1px solid var(--colorFirst);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+.main{
+    .main-section-news{
+        margin-bottom: calc((var(--value20Px) * 3));
+        .news-article{
+            flex-direction: column;
+            margin-top: calc((var(--value20Px) * 2));
+
+    
+            .article-up{
+                display: flex;
+                align-items: center;
+                margin-bottom: var(--value20Px);
+                background-color: var(--colorBackGround);
+                padding: var(--value20Px);
+                border-radius: var(--value12Px);
+                gap: var(--value20Px);
+
+                .up-left{
+                    width: 30%; 
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--value20Px);
+
+                    .left-image{
+                        .image{
+                            border-radius: var(--value12Px);
+                            width: 100%;
+                        }
+                    }
+
+                    .left-title{
+                        .title .title-light{
+                            background-color: var(--colorFirst);
+                        }
+                    }
+
+                    .left-date{
+                        .date mark{
+                            background-color: var(--colorFirst);
+                        }
+                    }
+                }
+
+                .up-right{
+                    width: 70%;
+
+                    .right-iframe .iframe-title,
+                    .right-videos .videos-title{
+                        margin-bottom: var(--value12Px);
+                    }
+
+                    .right-videos .videos-title{
+                        margin-top: var(--value12Px);
+
+                    }
+
+                    .right-iframe,
+                    .right-videos{
+
+                        h4 mark{
+                            background-color: var(--colorFirst);
+                        }
+
+                        .iframe-content,
+                        .videos-content{
+                            display: flex;
+                            justify-content: space-between;
+
+                            .content-iframe,
+                            .content-video{
+                                width: calc((100% / 2) - 20px);
+                                border-radius: var(--value12Px);
+                            }
+                        }
+                    }
+
+                    .right-iframe{
+                        .iframe-content{
+                            .content-iframe{
+                                height: 200px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+
+            .article-down{
+                background-color: var(--colorBackGround);
+                display: flex;
+                align-items: center;
+                border-radius: var(--value12Px);
+                padding: var(--value20Px);
+                gap: 40px;
+
+                .down-left{
+                    .left-paragraph span{
+                        background-color: var(--colorFirst);
+                    }
+                    
+                }
+
+                .down-right{
+                    .right-first{
+                        .first-title .title{
+                            background-color: var(--colorFirst);
+                            padding-left: 5px;
+                        }
+                        
+                        .right-list{
+                            padding-left: 0;
+                            .list-item{
+                                list-style: none;
+                                margin-bottom: var(--value12Px);
+
+                                span{
+                                    background-color: var(--colorFirst);
+                                    padding: 0 5px;
+                                }
+                            }
+                        }
+                    }
+
+                    .right-second{
+
+                        .right-list-order{
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding-left: 0;
+                            gap: 20px;
+
+                            .order-item{
+                                width: calc((100% / 3) - 30px);
+                                background-color: var(--colorFirst);
+                            }
+                        }
+                    }
+                }
+
+                p,li{
+                    font-size: .9rem;
+                }
+            }
+        }
+
+        #robotica,
+        #blockchain,
+        #habilidades-blandas{
+            .up-right,
+            .down-right{
+                order: -1;
+
+                .order-item{
+                    width: calc((100% / 2) - 30px);
+                    background-color: var(--colorFirst);
+                }
+            }
+        }
+        
+    }
+}

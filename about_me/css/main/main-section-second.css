@@ -1,0 +1,89 @@
+.main{
+    .section-second,
+    .section-third{
+        padding: 0 5%;
+
+        .second-article{
+            display: flex;
+            flex-direction: column;
+
+            .article-title,
+            .article-paragraph{
+                background-color: var(--colorBackGround);
+                border-radius: var(--value12Px);
+                padding: var(--value20Px);
+                margin-bottom: var(--value20Px);
+                .title-head{
+                    text-align: center;
+                }
+
+                hr{
+                    width: 60%;
+                    margin-bottom: calc((var(--value12Px) * 2));
+                }
+
+                .title-body{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .body-left{
+                        width: 60%;
+                    }
+
+                    .body-right{
+                        width: 30%;
+                    }
+                }
+            }
+        }
+
+        .article-paragraph{
+            height: 65px;
+            transition: height .4s ease;
+
+            .paragraph-title{
+                display: flex;
+                justify-content: center;
+            }
+
+            .paragraph-content{
+                display: none;
+
+                .content-list{
+                    padding-left: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    row-gap: 20px;
+
+                    .list-item{
+                        list-style: none;
+                        width: calc((100% / 4) - 20px);
+                        border: 1px solid var(--colorFirst);
+                        border-radius: var(--value12Px);
+                        padding: var(--value10Px);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: background-color .4s ease,
+                                    color .4s ease;
+                    }
+                    .list-item:hover{
+                        background-color: var(--colorFirst);
+                        color: var(--colorWhite);
+                    }
+                }
+                
+            }
+            
+        }
+
+        .article-paragraph.show-activity{
+            height: 450px;
+            .paragraph-content{
+                display: block;
+                
+            }
+        }
+    }
+}

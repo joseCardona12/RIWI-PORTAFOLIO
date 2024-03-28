@@ -1,0 +1,51 @@
+.main{
+    .main-section-index{
+        background-color: var(--colorBackGround);
+        border-radius: var(--value10Px);
+        padding: 20px;
+
+        .index-article{ 
+
+            .article-title{
+                margin-bottom: var(--value10Px);
+            }
+
+            .article-table{ 
+                width: 100%;
+                font-size: .9rem;
+
+                .table-thead{
+                    background-color: var(--colorSecond);
+                    th{
+                        color: var(--colorFirst);
+                        padding: 10px;
+                    }
+                }
+                .table-tbody{
+
+                    .tbody-row td{
+                        padding: var(--value10Px);
+                    }
+
+                    .tbody-row{
+                        a{
+                            text-decoration: none;
+                            color: var(--colorSecond);
+                        }
+
+                        a:hover{
+                            color: var(--colorFirst);
+                        }
+                    }
+                }
+
+                .table-tfoot{
+                    td{
+                        color: var(--colorFirst);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

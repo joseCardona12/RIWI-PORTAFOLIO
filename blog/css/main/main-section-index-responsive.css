@@ -1,0 +1,15 @@
+@media (max-width:600px){
+    .main{
+        .main-section-index{
+            background-color: transparent;
+            padding: 0;
+            .index-article{
+                width: 100%;
+
+                .article-table{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

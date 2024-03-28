@@ -1,0 +1,20 @@
+.body.dark{
+
+    .main{
+
+        .main-section-first{
+            .title,
+            .title-span-name,
+            .paragraph{
+                color: var(--colorFirst);
+            }
+
+            .title-span,
+            .paragraph-technology,
+            .paragraph-methodology{
+                color: var(--colorSecond);
+            }
+        }
+
+    }
+}

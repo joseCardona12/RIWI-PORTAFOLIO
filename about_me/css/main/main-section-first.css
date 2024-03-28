@@ -1,0 +1,43 @@
+.main{
+    .main-section-first{
+        .first-article{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .article-left{
+                width: 60%;
+
+                .left-title{
+                    .title{
+                        font-size: 2rem;
+                        span{
+                            background-color: var(--colorFirst);
+                            padding: 0 5px;
+                        }
+                    }
+                }
+
+                .left-paragraph{
+                    .paragraph-light{
+                        background-color: var(--colorFirst);
+                        padding: 0 5px;
+                    }
+                }
+            }
+
+            .article-right{
+                width: 30%;
+                padding: 0;
+
+                .right-image{
+                    width: 100%;
+
+                    .image{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

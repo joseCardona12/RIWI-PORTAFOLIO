@@ -1,0 +1,12 @@
+.body.dark{
+    .main{
+        .title,
+        .paragraph{
+            color: var(--colorFirst);
+            span{
+                color: var(--colorSecond);
+            }
+        }
+        
+    }
+}

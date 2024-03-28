@@ -1,0 +1,6 @@
+.body.dark{
+
+    .footer{
+        background-color: var(--colorSecondDark);
+    }
+}
