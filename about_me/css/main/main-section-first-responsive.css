@@ -1,0 +1,24 @@
+@media (max-width:700px){
+    .main{
+        .main-section-first{
+            margin-bottom: calc((var(--value20Px) * 2));
+            .first-article{
+                flex-direction: column;
+                row-gap: 30px;
+
+                .article-left{
+                    width: 100%;
+
+                    .left-title{
+                        text-align: center;
+                    }
+                }
+
+                .article-right{
+                    width: 70%;
+                    order: -1;
+                }
+            }
+        }
+    }
+}

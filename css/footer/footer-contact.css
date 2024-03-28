@@ -1,0 +1,54 @@
+.footer{
+
+    .footer-contact{
+        display: flex;
+        flex-direction:column;
+        gap: var(--value12Px);
+        position: fixed;
+        left: 0;
+        bottom: 10px;
+        z-index: 3;
+
+        .main-item{
+            text-decoration: none;
+            color: var(--colorWhite);
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            padding: 5px;
+            width: 30px;
+            transition: width .4s ease;
+            display: flex;
+            gap: var(--value12Px);
+
+            .icon-text{
+               display: none;
+            }
+        }
+
+        .github{
+            background-color: var(--colorSecond);
+        }
+
+        .instagram{
+            background-color: var(--colorFirst)
+        }
+
+        .linkedin{
+            background-color: var(--colorBlue);
+        }
+
+        .whatsapp{
+            background-color: var(--colorGreen);
+        }
+
+        .main-item:hover{
+            width: 130px;
+
+            .icon-text{
+                display: inline;
+                
+            }
+        }
+    }
+
+}

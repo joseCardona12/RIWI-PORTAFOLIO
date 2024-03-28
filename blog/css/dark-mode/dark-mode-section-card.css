@@ -1,0 +1,22 @@
+.body.dark{
+
+    .main{
+        .main-section-card{
+            .card-article{
+                .article-left,
+                .article-right{
+                    background-color: var(--colorSecondDarkLight);
+                    box-shadow: none;
+                }
+
+                .article-left .title,
+                .article-left .text-paragraph,
+                .article-left .item-paragraph,
+                .article-right .iframe-title,
+                .article-right .videos-title{
+                    color: var(--colorFirst);
+                }
+            }
+        }
+    }
+}

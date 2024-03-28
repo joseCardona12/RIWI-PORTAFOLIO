@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 5%;
+
+    .main-section-wellcome{
+        margin-top: 20px;
+        .wellcome-article{
+
+            .article-title{
+                .title{
+                    font-size: 2rem;
+                    text-transform: capitalize;
+
+                    .title-light{
+                        background-color: var(--colorFirst);
+                        padding: 0 4px;
+                    }
+                }
+                
+            }
+    
+
+        }
+    }
+
+    
+}

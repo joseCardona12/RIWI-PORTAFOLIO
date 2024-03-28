@@ -1,0 +1,97 @@
+.main{
+    .main-section-second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--colorBackGround);
+        transition: height .4s ease;
+        padding-bottom: 60px;
+
+        .second-title{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            display: flex;
+
+            
+        }
+
+        .second-content{
+            display: flex;
+            justify-content: space-between;
+            row-gap: 40px;
+            flex-wrap: wrap;
+
+            .content-article-project{
+                width: calc((100%/ 3) - 30px); 
+                padding: var(--value10Px);
+                border-radius: var(--value10Px);
+                background-color: var(--colorWhite);
+
+                .project-header{
+                    margin-bottom: var(--value10Px);
+
+                    .project-image{
+                        width: 100%;
+                        border-radius: var(--value10Px);
+    
+                    }
+                }
+
+                .project-body{
+
+                    .body-body{
+                        margin-bottom: var(--value10Px);
+                    }
+                }
+
+                .body-footer{
+
+                    .footer-list{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding-left: 0;
+                        gap: 10px;
+
+
+                        .list-item{
+                            list-style: none;
+                            border-radius: var(--value10Px);
+                            width: calc((100% / 3) - 10px);
+                            padding: 5px;
+                            transition: background-color .4s ease,
+                                        color .4s ease;
+                        }
+
+                        .list-item:hover{
+                            color: var(--colorWhite);
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .project-footer{
+
+                    .footer-link{
+                        display: block;
+                        text-decoration: none;
+                        color: var(--colorWhite);
+                        border-radius: var(--value10Px);
+                        padding: 5px;
+                        text-align: center;
+                        
+                    }
+
+                    .link-1{
+                        margin-bottom: var(--value10Px);
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}

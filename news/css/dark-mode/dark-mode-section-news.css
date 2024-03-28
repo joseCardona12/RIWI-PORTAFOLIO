@@ -1,0 +1,50 @@
+.body.dark{
+    .main{
+        .main-section-news{
+            .news-article{
+                .article-up,
+                .article-down{
+                    background-color: var(--colorSecondDark);
+
+                    .title,
+                    .date,
+                    .iframe-title h4,
+                    .videos-title h4{
+                        color: var(--colorFirst);
+                        span{
+                            color: var(--colorSecond);
+                        }
+
+                    }
+
+                    .down-left .left-paragraph{
+                        color: var(--colorFirst);
+
+                        span{
+                            color: var(--colorSecond);
+                        }
+                    }
+
+                    .down-right{
+                        .title{
+                            color: var(--colorSecond);
+                        }
+
+                        .list-item{
+                            color: var(--colorFirst);
+                            span{
+                                color: var(--colorSecond);
+                            }
+                        }
+
+                        .right-second{
+                            .title{
+                                color: var(--colorFirst);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

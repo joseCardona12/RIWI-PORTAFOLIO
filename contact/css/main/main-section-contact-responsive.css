@@ -1,0 +1,23 @@
+@media (max-width:700px){
+    .main{
+        .main-section{
+            .section-article{
+                .article-form{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:701px) and (max-width:1000px){
+    .main{
+        .main-section{
+            .section-article{
+                .article-form{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+
+.main{
+    position: relative;
+
+    .main-section-first .first-introduction{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .introduction-left{
+            width: 60%;
+
+            .left-title{
+                .title{
+                    font-size: 2rem;
+    
+                    .title-span{
+                        background-color: var(--colorFirst);
+                        padding: 0 4px;
+    
+                    }
+                }
+
+                .title-span-name{
+                    margin-bottom: var(--value10Px);
+                }
+            }
+
+            .left-paragraph{
+
+                .paragraph-2{
+                    .paragraph-technology,
+                    .paragraph-methodology{
+                        background-color: var(--colorFirst);
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+
+        .introduction-right{
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+
+            .right-image{
+                width: 100%;
+                transition: transform .4s ease;
+            }
+
+            .right-image:hover{
+                cursor: pointer;
+                transform: scale(1.02);
+            }
+        }
+
+    }
+}

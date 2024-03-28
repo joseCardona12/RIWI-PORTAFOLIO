@@ -1,0 +1,8 @@
+.body.dark{
+    .header{
+        .header-logo .logo-h4 .logo-link,
+        .header-nav .nav-list .list-item .item-link{
+            color: var(--colorFirst);
+        }
+    }
+}

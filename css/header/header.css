@@ -1,0 +1,57 @@
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    
+
+    .header-logo .logo-h4{
+        .logo-link{
+            text-decoration: none;
+            color: var(--colorSecond);
+        }
+    }
+
+    .header-nav .nav-list{
+        display: flex;
+        gap: 12px;
+
+        .list-item{
+            list-style: none;
+
+            .item-link{
+                text-decoration: none;
+                color: var(--colorSecond);
+                font-size: .9rem;
+                transition: color .4s ease,
+                            border-bottom .4s ease;
+            }
+
+            .item-link:hover{
+                color: var(--colorFirst);
+                border-bottom: 1px solid var(--colorFirst);
+            }
+
+            .item-link.active{
+                border: 1px solid var(--colorFirst);
+                padding: 2px 8px;
+                border-radius: 8px;
+                color: var(--colorFirst);
+                transition: background-color .4s ease,
+                            color .4s ease;
+            }
+
+            .item-link.active:hover{
+                background-color: var(--colorFirst);
+                color: var(--colorWhite);
+            }
+        }
+    }
+
+
+    .header-hamburger{
+        display: none;
+    }
+}

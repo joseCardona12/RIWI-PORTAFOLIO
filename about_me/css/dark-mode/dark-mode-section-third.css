@@ -1,0 +1,20 @@
+.body.dark{
+    .main{
+        .section-third{
+            .third-article{
+                hr{
+                    border: 1px solid var(--colorFirst);
+                }
+                .article-body{
+                    .body-list .list-item{
+                        color: var(--colorFirst);
+                    }
+                    .body-list .list-item:hover{
+                        background-color: var(--colorFirst);
+                        color: var(--colorSecond);
+                    }
+                }
+            }
+        }
+    }
+}

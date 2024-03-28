@@ -1,0 +1,20 @@
+.body.dark{
+    .main{
+        .main-section-index{
+            background-color: var(--colorSecondDark);
+
+            .index-article{
+                .title{
+                    color: var(--colorFirst);
+                }
+            }
+
+            .article-table{
+                .table-tbody .tbody-row td a,
+                .table-tbody .tbody-row td{
+                    color: var(--colorFirst);
+                }
+            }
+        }
+    }
+}

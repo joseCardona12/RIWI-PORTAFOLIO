@@ -1,0 +1,27 @@
+.body.dark{
+    .main{
+        .main-section-second{
+            .title{
+                color: var(--colorFirst);
+            }
+
+            .second-content{
+                .content-article-project{
+                    background-color: var(--colorSecondDarkLight);
+                    box-shadow: none;
+
+                    .header-title,
+                    .body-paragraph,
+                    .footer-title,
+                    .list-item{
+                        color: var(--colorFirst);
+                    }
+
+                    .paragraph-rol{
+                        color: var(--colorWhite);
+                    }
+                }
+            }
+        }
+    }
+}
